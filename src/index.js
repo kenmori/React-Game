@@ -12,21 +12,7 @@ export default class HelloReact extends React.Component {
   render() {
     return (
       <div>
-            <div>
-        <h1>React-Sample集</h1>
-        <p>~小さい部品を数多く違った方法で作って理解する~</p>
-        <p>author: <a href="https://github.com/kenmori">kenmori</a></p>
-        <p>blog: <a href="http://kenjimorita.jp/">bukostunikki</a></p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
         <ParentComponent />
-            </div>
       </div>
       );
   }
