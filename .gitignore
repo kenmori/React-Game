@@ -1,0 +1,6 @@
+node_modules/
+.idea/
+bower_components/
+*.map
+dist/app.js
+typings/*.ts
