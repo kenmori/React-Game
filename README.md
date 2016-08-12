@@ -2,33 +2,41 @@
 
 auther: KenjiMorita
 
-## blog
-[http://kenjimorita.jp/react-reactjs-sample/](http://kenjimorita.jp/react-reactjs-sample/)
 
-## demo
-[http://kenjimorita.jp/react/](http://kenjimorita.jp/react/)
+ターゲットclass
+4方向からランダムでどれか4つのうち1つが現れる
+家の座標の方に動く
+家の座標にはいったら消える
+
+・彼氏
+タップされたら得点が加算される
+
+・違う男
+タップされたら得点が減算される
+
+・犬
+タップされたら得点が減算される
+
+・外人
+家の座標にはいったら消える
+タップされたら得点が減算される
+
+ステージ
+4つの段階がある
+1、違う種類が同時に出てくる
+2、違う種類が同時に出てきてかつスピードがあがる
+3、違う種類かつタイミングをずらしてはいっていく
+4、彼氏がたくさんいる。かつ早く、
+
+スコア
+現在のスコアから引く
+現在のスコアに足す
+
+タイム
+15秒毎にステージを更新する
+0になったら終了する
+
+タップされたら消える
 
 
-## Setting
-```bash
-git clone https://github.com/kenmori/React-Sample.git
-cd React-Sample
-npm install
-```
-
-### Start server
-```bash
-gulp
-```
-
-####
-I think that it is unnecessary, there is a file of around Flux as an example,
-
-```
-src/component/ParentComponent.js
-```
-is ParentComponent
-
-#### local server start
-Server started: [http://localhost:3000/](http://localhost:3000/)
 
